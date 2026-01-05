@@ -1,5 +1,4 @@
 # Sistema
-.*
 !.gitignore
 
 # Python / Conda
@@ -10,11 +9,4 @@ __pycache__/
 .venv
 miniconda3/
 
-# Logs y resultados pesados (ajusta si quieres)
-*.log
-*.pt
-*.pth
-*.ckpt
-
-# OS
 Thumbs.db

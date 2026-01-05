@@ -1,0 +1,61 @@
+{
+    "graph_name": "grafo_prueba",
+    "num_nodes": 10000,
+    "num_edges": 50000,
+    "part_method": "random",
+    "num_parts": 3,
+    "halo_hops": 1,
+    "node_map": {
+        "_N": [
+            [
+                0,
+                3323
+            ],
+            [
+                3323,
+                6624
+            ],
+            [
+                6624,
+                10000
+            ]
+        ]
+    },
+    "edge_map": {
+        "_N:_E:_N": [
+            [
+                0,
+                16716
+            ],
+            [
+                16716,
+                33077
+            ],
+            [
+                33077,
+                50000
+            ]
+        ]
+    },
+    "ntypes": {
+        "_N": 0
+    },
+    "etypes": {
+        "_N:_E:_N": 0
+    },
+    "part-0": {
+        "node_feats": "part0/node_feat.dgl",
+        "edge_feats": "part0/edge_feat.dgl",
+        "part_graph": "part0/graph.dgl"
+    },
+    "part-1": {
+        "node_feats": "part1/node_feat.dgl",
+        "edge_feats": "part1/edge_feat.dgl",
+        "part_graph": "part1/graph.dgl"
+    },
+    "part-2": {
+        "node_feats": "part2/node_feat.dgl",
+        "edge_feats": "part2/edge_feat.dgl",
+        "part_graph": "part2/graph.dgl"
+    }
+}
